@@ -22,7 +22,7 @@ body {
 header {
   background-color: #192a56;
   padding-top: 16px;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 header > .container {
@@ -47,7 +47,7 @@ nav li {
 }
 
 nav li a {
-  color: #fff;
+  color: #f0f0f0;;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ nav li a {
 .menu-hamburguer span {
   height: 2px;
   width: 100%;
-  background-color: #fff;
+  background-color: #f0f0f0;;
   display: block;
   margin-bottom: 4px;
 }
@@ -109,7 +109,7 @@ section h2 {
   padding: 8px 0;
   border: none;
   background-color: #119759;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
