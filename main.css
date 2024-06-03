@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .container {
@@ -19,16 +19,25 @@ body {
   margin: 0 auto;
 }
 
-header {
+header,
+footer {
   background-color: #192a56;
   padding-top: 16px;
   color: #f0f0f0;
 }
 
-header > .container {
+header > .container,
+footer > .container {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 nav {
@@ -47,7 +56,7 @@ nav li {
 }
 
 nav li a {
-  color: #f0f0f0;;
+  color: #f0f0f0;
   text-decoration: none;
 }
 
@@ -59,7 +68,7 @@ nav li a {
 .menu-hamburguer span {
   height: 2px;
   width: 100%;
-  background-color: #f0f0f0;;
+  background-color: #f0f0f0;
   display: block;
   margin-bottom: 4px;
 }
@@ -79,6 +88,7 @@ section {
 
 section h2 {
   margin-bottom: 16px;
+  font-size: 40px;
 }
 
 .lista-veiculos {
@@ -103,7 +113,7 @@ section h2 {
   margin: 0 5%;
 }
 
-.lista-veiculos li button {
+button {
   display: block;
   width: 100%;
   padding: 8px 0;
@@ -117,7 +127,7 @@ section h2 {
   border-radius: 6px;
 }
 
-.lista-veiculos li button:hover {
+button:hover {
   background-color: #11b96b;
 }
 
@@ -127,6 +137,44 @@ section h2 {
 }
 
 .price del {
-    color:#ccc;
-    font-size: 14px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.form-campo {
+  margin-bottom: 16px;
+}
+
+.form-campo label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  display: block;
+  padding: 8px;
+}
+
+.form-campo textarea {
+  resize: none;
+  height: 120px;
+}
+
+form {
+  max-width: 360px;
+}
+
+form button {
+  max-width: 120px;
+}
+
+footer li {
+  list-style: none;
+  margin-left: 16px;
+}
+
+footer li img {
+  height: 32px;
 }
